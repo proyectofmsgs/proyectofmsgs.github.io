@@ -27,26 +27,30 @@
     href="css/estilos.css">
 </head>
 <body>
+
+  
+  <section class="form-main">
+    <div class="form-content">
+        <div class="box2">
   <form name="forma">
     <mi-nav></mi-nav>
     <header>
       <h1>Alumno</h1>
       <div class="herramientas">
         <a href="alumnos.html">
-          Cancelar</a>
-        <button>Guardar</button>
-        <button name="eliminar"
-          type="button">
-          Eliminar
-        </button>
+
+  
       </div>
     </header>
     <p>
+      <div class="input-box"></div>
       <label>
         Matricula
         <input name="matricula"
           type="text" required>
+        
       </label>
+    </div>
     </p>
     <p>
       <label>
@@ -77,9 +81,14 @@
     </p>
     <mi-footer></mi-footer>
   </form>
+   <!--BONTONES DEL FORMULARIO -->
+   <input class="btn" type="button"  value="Cancelar">
+   <p></p>
+   <input class="btn" type="button" name="eliminar" value="Eliminar">
+   <p></p>
+   <input class="btn" type="button"  value="Guardar">
   <script type="module"
     src="js/CtrlAlumno.js">
     </script>
 </body>
 </html>
-
